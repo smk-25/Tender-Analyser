@@ -19,7 +19,7 @@ from typing import Set, Dict, List
 
 # Mapping of import names to PyPI package names
 IMPORT_TO_PACKAGE = {
-    'fitz': 'pymupdf',
+    'fitz': 'PyMuPDF',
     'docx': 'python-docx',
     'dotenv': 'python-dotenv',
     'bs4': 'beautifulsoup4',
