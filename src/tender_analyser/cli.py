@@ -2,6 +2,7 @@
 Command-line interface for Tender Analyser.
 """
 
+import json
 import logging
 import click
 from pathlib import Path
@@ -45,7 +46,6 @@ def analyze(ctx, file_path, output):
         
         if output:
             # Save results to output file
-            import json
             with open(output, 'w') as f:
                 json.dump(result, f, indent=2)
             click.echo(f"Results saved to: {output}")
@@ -73,7 +73,6 @@ def batch(ctx, directory, output):
         click.echo(f"Analyzed {len(results)} files")
         
         if output:
-            import json
             output_path = Path(output)
             output_path.mkdir(parents=True, exist_ok=True)
             

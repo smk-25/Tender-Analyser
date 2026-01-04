@@ -3,6 +3,7 @@ Tests for the DataExtractor class.
 """
 
 import pytest
+import tempfile
 from pathlib import Path
 from tender_analyser.extractor import DataExtractor
 
@@ -32,7 +33,6 @@ def test_extract_unsupported_format():
     extractor = DataExtractor()
     with pytest.raises(ValueError):
         # Create a temporary file with unsupported extension
-        import tempfile
         with tempfile.NamedTemporaryFile(suffix='.txt', delete=False) as f:
             temp_path = Path(f.name)
         try:

@@ -5,6 +5,7 @@ Utility functions for the Tender Analyser.
 import os
 from pathlib import Path
 from typing import Optional
+from dotenv import load_dotenv
 
 
 def get_project_root() -> Path:
@@ -14,8 +15,6 @@ def get_project_root() -> Path:
 
 def load_env_config() -> dict:
     """Load configuration from environment variables."""
-    from dotenv import load_dotenv
-    
     env_path = get_project_root() / '.env'
     load_dotenv(env_path)
     
