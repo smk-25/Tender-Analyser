@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  tender-analyser:
+    build: .
+    container_name: tender-analyser
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - DATA_DIR=/app/data
+      - LOG_DIR=/app/logs
+      - DEBUG=False
+    command: ["tender-analyser", "--help"]
