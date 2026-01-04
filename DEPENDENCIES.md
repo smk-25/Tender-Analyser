@@ -29,7 +29,7 @@ pip install -e .
 ## Core Dependencies
 
 ### Document Processing
-- **pymupdf** (>=1.23.0) - PDF rendering and text extraction (imported as `fitz`)
+- **PyMuPDF** (==1.24.14) - PDF rendering and text extraction (imported as `fitz`)
 - **pdfplumber** (>=0.10.0) - Advanced PDF table extraction
 - **PyPDF2** (>=3.0.0) - Alternative PDF processing library
 - **python-docx** (>=1.0.0) - Microsoft Word document generation and parsing
@@ -61,7 +61,7 @@ The CLI tool requires:
 ### Streamlit Application (`Summarizationcode.py`)
 The Streamlit application requires all dependencies listed in `requirements.txt`:
 - streamlit
-- pymupdf (fitz)
+- PyMuPDF (fitz)
 - pandas
 - nltk
 - google-genai

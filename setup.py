@@ -33,7 +33,7 @@ setup(
         "beautifulsoup4>=4.12.0",
         "openpyxl>=3.1.0",
         "PyPDF2>=3.0.0",
-        "pymupdf>=1.24.0",
+        "PyMuPDF==1.24.14",
         "pdfplumber>=0.10.0",
         "nltk>=3.9.0",
         "click>=8.1.0",

@@ -27,7 +27,7 @@ Added missing packages and version constraints:
 
 ### 2. Updated `setup.py`
 Synchronized with actual code requirements:
-- ✅ Added `pymupdf>=1.23.0` (for PDF processing)
+- ✅ Added `PyMuPDF==1.24.14` (for PDF processing)
 - ✅ Added `pdfplumber>=0.10.0` (for table extraction)
 - ✅ Added `streamlit>=1.28.0` (for web UI)
 - ✅ Added `google-genai>=0.2.0` (for AI features)
@@ -64,7 +64,7 @@ pip install --dry-run -r requirements.txt
 #### Streamlit Application (`Summarizationcode.py`)
 Required packages in `requirements.txt`:
 1. ✅ streamlit>=1.28.0
-2. ✅ pymupdf>=1.23.0
+2. ✅ PyMuPDF==1.24.14
 3. ✅ pandas>=2.0.0
 4. ✅ nltk>=3.8.0
 5. ✅ google-genai>=0.2.0
@@ -81,7 +81,7 @@ Required packages in `setup.py`:
 5. ✅ beautifulsoup4>=4.12.0
 6. ✅ openpyxl>=3.1.0
 7. ✅ PyPDF2>=3.0.0
-8. ✅ pymupdf>=1.23.0
+8. ✅ PyMuPDF==1.24.14
 9. ✅ pdfplumber>=0.10.0
 10. ✅ nltk>=3.8.0
 11. ✅ click>=8.1.0
