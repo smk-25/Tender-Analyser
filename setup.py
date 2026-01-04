@@ -36,7 +36,7 @@ setup(
         "PyPDF2>=3.0.0",
         "pymupdf>=1.23.0",
         "pdfplumber>=0.10.0",
-        "nltk>=3.8.0",
+        "nltk>=3.9.0",
         "click>=8.1.0",
         "streamlit>=1.28.0",
         "google-genai>=0.2.0",
