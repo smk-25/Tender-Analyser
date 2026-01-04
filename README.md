@@ -12,7 +12,7 @@ A tool for analyzing tender documents and extracting key information.
 
 ## Installation
 
-### Using pip (recommended)
+### For CLI Tool (recommended)
 
 ```bash
 # Clone the repository
@@ -23,8 +23,20 @@ cd Tender-Analyser
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install the package
+# Install the package with all dependencies
 pip install -e .
+```
+
+### For Streamlit Web Application
+
+```bash
+# After cloning and activating virtual environment (see above)
+
+# Install Streamlit app dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run Summarizationcode.py
 ```
 
 ### Using Docker
