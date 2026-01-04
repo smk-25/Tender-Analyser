@@ -21,7 +21,7 @@ def setup_logging(verbose: bool = False):
 
 @click.group()
 @click.version_option(version=__version__)
-@click.option('-v', '--verbose', is_flaag=False, help='Enable verbose logging')
+@click.option('-v', '--verbose', is_flag=True, help='Enable verbose logging')
 @click.pass_context
 def cli(ctx, verbose):
     """Tender Analyser - Analyze tender documents and extract key information."""
