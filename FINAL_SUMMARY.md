@@ -65,7 +65,7 @@ The project had **critical dependency issues** that have now been **completely r
 | Package | Version | Purpose | Status |
 |---------|---------|---------|--------|
 | streamlit | ≥1.28.0 | Web UI framework | ✅ |
-| pymupdf | ≥1.23.0 | PDF processing | ✅ |
+| PyMuPDF | ==1.24.14 | PDF processing | ✅ |
 | pandas | ≥2.0.0 | Data manipulation | ✅ |
 | nltk | ≥3.9.0 | NLP processing | ✅ SECURITY FIX |
 | google-genai | ≥0.2.0 | AI integration | ✅ |
@@ -144,7 +144,7 @@ Expected output:
 ### Manual Verification
 Check specific packages:
 ```bash
-pip show streamlit pymupdf pandas nltk google-genai pdfplumber openpyxl python-docx
+pip show streamlit PyMuPDF pandas nltk google-genai pdfplumber openpyxl python-docx
 ```
 
 Ensure NLTK version is 3.9.0 or higher:

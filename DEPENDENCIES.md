@@ -61,7 +61,7 @@ The CLI tool requires:
 ### Streamlit Application (`Summarizationcode.py`)
 The Streamlit application requires all dependencies listed in `requirements.txt`:
 - streamlit
-- pymupdf (fitz)
+- PyMuPDF (fitz)
 - pandas
 - nltk
 - google-genai

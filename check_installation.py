@@ -30,7 +30,7 @@ def main():
     # Packages for Streamlit application
     streamlit_packages = [
         ('streamlit', 'streamlit'),
-        ('pymupdf', 'fitz'),
+        ('PyMuPDF', 'fitz'),
         ('pandas', 'pandas'),
         ('nltk', 'nltk'),
         ('google-genai', 'google.genai'),
